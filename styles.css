@@ -95,7 +95,7 @@ h1 {
 .section { padding: 86px 0; border-bottom: 1px solid var(--line); }
 .section-grid { display: grid; grid-template-columns: 220px 1fr; gap: 70px; }
 .section-label { margin: 0; font-size: 1rem; letter-spacing: .02em; color: var(--accent); }
-.section h2 { margin: 0 0 22px; font-size: clamp(2rem, 4vw, 3.3rem); line-height: 1.1; }
+.section h2:not(.section-label) { margin: 0 0 22px; font-size: clamp(2rem, 4vw, 3.3rem); line-height: 1.1; }
 .lead { margin: 0; max-width: 800px; font-size: 1.18rem; color: #364152; }
 
 .expertise-grid {
